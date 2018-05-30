@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -ti -d --name=$1  -v $2:/var/tunnel2host -p $3:3000 react_environment:latest

@@ -1,0 +1,5 @@
+From nodejs_v10:latest
+
+RUN npm install -g create-react-app
+
+RUN npm install -g --unsafe-perm nwb

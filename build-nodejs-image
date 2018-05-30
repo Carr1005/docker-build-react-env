@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build -f ./nodejsDockerfile -t nodejs_v10:latest .
