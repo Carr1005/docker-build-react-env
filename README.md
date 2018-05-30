@@ -7,7 +7,7 @@ Generating a nodejs v10 docker image, named `nodejs_v10:latest`.
 
 * `./build-react-image`   
 
-Generating a docker image based on previous one, this image owns [create-react-app](https://github.com/facebook/create-react-app) and [nwb](https://github.com/insin/nwb). (No harms from the warnings while installing nwb, ignore them)
+Generating a docker image based on previous one, this image owns [create-react-app](https://github.com/facebook/create-react-app) and [nwb](https://github.com/insin/nwb). (Ignore the warnings while installing nwb)
 
 * `./build-react-container [container name] [mounting directory] [port forwarding]`   
 
